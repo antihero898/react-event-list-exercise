@@ -1,0 +1,103 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.event-form-input {
+  padding: 5px;
+}
+
+.event-form-label {
+  padding: 5px;
+}
+
+.event-form-input-label {
+  padding-right: 3px;
+}
+
+.event-info-header {
+  padding: 0px 3px;
+  width: 400px;
+  font-weight: bold;
+}
+
+.event-info-description {
+  padding: 0px 3px;
+  width: 400px;
+}
+
+.event-button-container {
+  margin: 5px;
+  align-self: center;
+}
+
+.event-info-background-container {
+  background-color: #000000c9;
+  position: absolute;
+  z-index: 3000;
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+
+.event-info-container {
+  padding-bottom: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  opacity: 1;
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+}
+
+.event-info-header {
+  font-weight: bold;
+  text-align: center;
+  padding: 3px 0px;
+  width: 400px;
+}
+
+.event-form-container {
+  padding-bottom: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.event-form-header {
+  padding: 0px 3px;
+  width: 400px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.event-item-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.event-item-button {
+  align-self: flex-start;
+}
+
+.event-list-container {
+  padding-bottom: 20px;
+  width: 400px;
+  margin-bottom: 10px;
+}
